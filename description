@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head> <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> </head>
+<html>
+<body>
+
+<!-- Внешний вид листа выбора -->
+<style> #list {
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 14px;
+		color: black; 
+		
+		width: 600px;
+		height: auto;
+		border: 1px dotted black;
+		margin-left: 50px;
+}
+</style>
+
+
+<h2> ЧЕК-ЛИСТ ДЛЯ СОСТАВЛЕНИЯ ОПИСАНИЯ КВАРТИРЫ</h2>
+
+
+<fieldset id=list> <legend><b> Жилой комплекс ЖК </b></legend>
+<label><input type="radio" name="zhk" value="Дом бизнес-класса."> Дом бизнес-класса </label> <br>
+<label><input type="radio" name="zhk" value="Новый жилой комплекс."> Соверемнный жилой комплекс </label> <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Район </b></legend>
+<input type="radio" name="district" value="Тихий и спокойный район.">Тихий и спокойный район <br>
+<input type="radio" name="district" value="Экологически чистый район.">Экологически чистый район <br>
+<input type="radio" name="district" value="Новый и современный, активно развивающемся район.">Новый, активно развивающемся район <br>
+<input type="radio" name="district" value="Исторический центр города.">Исторический центр города <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Число комнат </b></legend>
+<input type="radio" name="room" value="Квартира-студия."> Квартира-студия <br>
+<input type="radio" name="room" value="1-ком. квартира."> 1-ком. квартира <br>
+<input type="radio" name="room" value="2-ком. квартира."> 2-ком. квартира <br>
+<input type="radio" name="room" value="3-ком. квартира."> 3-ком. квартира <br>
+<input type="radio" name="room" value="4-ком. квартира."> 4-ком. квартира <br>
+<input type="radio" name="room" value="5-ком. квартира."> 5-ком. квартира <br>
+<input type="radio" name="room" value="Пентхаус"> Пентхаус.<br>
+</fieldset>
+<br>
+
+ <fieldset id=list> <legend><b> Тип дома </b></legend>
+<input type="radio" name="tipdoma" value="Панельный дом."> Панельный дом <br>
+<input type="radio" name="tipdoma" value="Кирпичный дом."> Кирпичный дом <br>
+<input type="radio" name="tipdoma" value="Монолитный дом."> Монолитный дом <br>
+<input type="radio" name="tipdoma" value="Новый монолитный дом."> Новый монолитный дом <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Характеристика дома </b></legend>
+<input type="radio" name="dom" value="Огороженная и охраняемая территория."> Огороженная и охраняемая территория <br>
+<input type="radio" name="dom" value="Дом огорожен."> Дом огорожен <br>
+<input type="radio" name="dom" value="Подземный паркинг."> Подземный паркинг <br>
+<input type="radio" name="dom" value="Видеонаблюдение."> Видеонаблюдение <br>
+<input type="radio" name="dom" value="В подвале имеется кладовое помещение."> В подвале имеется кладовое помещение <br>
+<input type="radio" name="dom" value="Дом включен в программу реконструкции и реновации."> Дом включен в программу реконструкции и реновации <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Подъезд </b></legend>
+<input type="radio" name="doorway" value="Чистый подъезд."> Чистый подъезд <br>
+<input type="radio" name="doorway" value="Консьерж."> Консьерж <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Особенности этажа </b></legend>
+<input type="radio" name="level" value="Квартира расположена на 1 этаже."> Квартира расположена на 1 этаже <br>
+<input type="radio" name="level" value="Квартира расположена на высоком этаже."> Квартира расположена на высоком этаже <br>
+</fieldset>
+<br>
+ 
+<fieldset id=list> <legend><b> Вид из окон </b></legend>
+<input type="radio" name="viewfromthewindow" value="Квартира."> Квартира <br>
+<input type="radio" name="viewfromthewindow" value="Вид из окон во двор."> Вид из окон во двор <br>
+<input type="radio" name="viewfromthewindow" value="Вид из окон на улицу."> Вид из окон на улицу <br>
+<input type="radio" name="viewfromthewindow" value="Окна смотрят на две стороны."> Окна смотрят на две стороны <br>
+<input type="radio" name="viewfromthewindow" value="Панорамный вид на город."> Панорамный вид на город <br>
+<input type="radio" name="viewfromthewindow" value="Панорамный вид."> Панорамный вид <br>
+<input type="radio" name="viewfromthewindow" value="Очень красивый вид из окон."> Очень красивый вид из окон <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Двор </b></legend>
+<input type="radio" name="yard" value="Во дворе детская площадка, организована парковка."> Во дворе детская площадка, организована парковка <br>
+<input type="radio" name="yard" value="Въезд во двор под шлагбаум."> Въезд во двор под шлагбаум <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Состояние квартиры </b></legend>
+<input type="radio" name="repair" value="Квартира без отделки."> Квартира без отделки <br>
+<input type="radio" name="repair" value="Требуется ремонт."> Требуется ремонт <br>
+<input type="radio" name="repair" value="В квартире сделан муниципальный ремонт."> В квартире сделан муниципальный ремонт <br>
+<input type="radio" name="repair" value="В квартире выполнен ремонт."> В квартире выполнен ремонт <br>
+<input type="radio" name="repair" value="Хорошее состояние квартиры."> Хорошее состояние квартиры <br>
+<input type="radio" name="repair" value="Отличное состояние квартиры."> Отличное состояние квартиры <br>
+<input type="radio" name="repair" value="В квартире сделан евроремонт."> В квартире сделан евроремонт <br>
+<input type="radio" name="repair" value="В квартире выполнен дизайнерский евроремонт."> В квартире выполнен дизайнерский евроремонт <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Дополнительно в квартире </b></legend>
+<input type="radio" name="other" value="Гардеробная."> Гардеробная <br>
+<input type="radio" name="other" value="Установлен кондиционер."> Установлен кондиционер <br>
+<input type="radio" name="other" value="В каждой комнате кондиционер."> В каждой комнате кондиционер <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Мебель </b></legend>
+<input type="radio" name="furniture" value="Квартира продается с мебелью и бытовой техникой."> Квартира продается с мебелью и бытовой техникой <br>
+<input type="radio" name="furniture" value="Встроенная кухня с бытовой техникой."> Встроенная кухня с бытовой техникой <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Балкон/лоджия </b></legend>
+<input type="radio" name="balcony" value="Без балкона."> Без балкона <br>
+<input type="radio" name="balcony" value="Балкон."> Балкон <br>
+<input type="radio" name="balcony" value="Застекленный балкон."> Застекленный балкон <br>
+<input type="radio" name="balcony" value="Лоджия."> Лоджия <br>
+<input type="radio" name="balcony" value="Застекленная лоджия."> Застекленная лоджия <br>
+<input type="radio" name="balcony" value="Балкон и лоджия."> Балкон и лоджия <br>
+<input type="radio" name="balcony" value="Огромная лоджия."> Огромная лоджия <br>
+<input type="radio" name="balcony" value="Большой балкон на два окна."> Большой балкон на два окна <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Пол </b></legend>
+<input type="radio" name="floor" value="На полу – линолеум."> На полу – линолеум <br>
+<input type="radio" name="floor" value="На полу – ламинат."> На полу – ламинат <br>
+<input type="radio" name="floor" value="Покрытие пола – ламинат и плитка."> Покрытие пола – ламинат и плитка <br>
+<input type="radio" name="floor" value="На полу плитка с подогревом."> На полу плитка с подогревом <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Санузел </b></legend>
+<input type="radio" name="sanuzel" value="С/у совмещенный."> С/у совмещенный <br>
+<input type="radio" name="sanuzel" value="С/у раздельный."> С/у раздельный <br>
+<input type="radio" name="sanuzel" value="Два санузла."> Два санузла <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Кухня </b></legend>
+<input type="radio" name="kitchen" value="Встроенная кухня."> Встроенная кухня <br>
+<input type="radio" name="kitchen" value="Встроенная кухня с бытовой техникой."> Встроенная кухня с бытовой техникой <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Собственность </b></legend>
+<input type="radio" name="documents" value="В собственности более 3 лет."> В собственности более 3 лет <br>
+<input type="radio" name="documents" value="В собственности более 5 лет."> В собственности более 5 лет <br>
+<input type="radio" name="documents" value="Никто не прописан."> Никто не прописан <br>
+<input type="radio" name="documents" value="Собственность оформлена."> Собственность оформлена <br>
+<input type="radio" name="documents" value="Квартира в собственности."> Квартира в собственности <br>
+<input type="radio" name="documents" value="Продажа по договору уступки."> Продажа по договору уступки <br>
+
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Условия продажа </b></legend>
+<input type="radio" name="situation" value="Свободная продажа."> Свободная продажа <br>
+<input type="radio" name="situation" value="Альтернативная продажа."> Альтернативная продажа <br>
+<input type="radio" name="situation" value="Альтернатива подобрана."> Альтернатива подобрана <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Ипотека </b></legend>
+<input type="radio" name="ipoteka" value="Ипотека возможна."> Ипотека возможна <br>
+<input type="radio" name="ipoteka" value="Подходит под ипотеку."> Подходит под ипотеку <br>
+</fieldset>
+<br>
+
+<fieldset id=list> <legend><b> Показ квартиры </b></legend>
+<input type="radio" name="end" value="Оперативный показ."> Оперативный показ <br>
+<input type="radio" name="end" value="Оперативный показ, ключи на руках."> Оперативный показ, ключи на руках <br>
+<input type="radio" name="end" value="Показ в любое время."> Показ в любое время <br>
+<input type="radio" name="end" value="Звоните, с удовольствем отвечу на все ваши вопросы."> Звоните, с удовольствем отвечу на все ваши вопросы <br>
+</fieldset>
+<br>
+
+
+<!-- Кнопка показать выбор -->
+<button type="button" onclick="displayRadioValue()"> Сформировать описание </button>
+ 
+<br><br>
+ <!-- Скрипт выбора -->
+<script>
+        function displayRadioValue() {
+            document.getElementById("rezult").innerHTML = "";
+            var ele = document.getElementsByTagName('input');
+				for(i = 0; i < ele.length; i++) {
+                    if(ele[i].type="radio") {
+                    if(ele[i].checked)				
+					document.getElementById("rezult").innerHTML  += ele[i].value + " "; 
+					}
+            }
+        }
+</script>
+
+
+<!-- Внешний вид вывода описания -->
+<style> #rezult {
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 16px;
+		color: red; 
+		
+		width: 600px;
+		height: 150px;
+		border: 1px solid black;
+		margin-left: 50px;
+		padding: 10px; /* Отступ текста от края*/
+}
+</style>
+
+<div id="rezult"></div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
